@@ -53,30 +53,57 @@ export default function Home() {
         </p>
       </section>
 
-      {/* Projetos */}
+      
       <section id="projetos" className="px-6 py-24">
-        <h3 className="text-3xl font-bold mb-12 text-center">Projetos</h3>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="bg-gray-800 p-6 rounded-xl hover:shadow-lg transition">
-            <h4 className="text-xl font-bold mb-4">Sistema de Vendas</h4>
-            <p className="text-gray-400">
-              Plataforma fullstack usando Next.js, Prisma e MySQL para gerenciamento de vendas e estoque.
-            </p>
-          </div>
-          <div className="bg-gray-800 p-6 rounded-xl hover:shadow-lg transition">
-            <h4 className="text-xl font-bold mb-4">Portal Acadêmico</h4>
-            <p className="text-gray-400">
-              Sistema de acompanhamento escolar para alunos e professores, desenvolvido com Node.js e React.
-            </p>
-          </div>
-          <div className="bg-gray-800 p-6 rounded-xl hover:shadow-lg transition">
-            <h4 className="text-xl font-bold mb-4">Game Hub</h4>
-            <p className="text-gray-400">
-              Plataforma de gerenciamento de jogos digitais, focada em integração com APIs e alto desempenho.
-            </p>
-          </div>
-        </div>
-      </section>
+  <h3 className="text-3xl font-bold mb-12 text-center">Projetos</h3>
+  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+    
+    {/* Projeto 1 - Blog com Painel Admin */}
+    <div className="bg-gray-800 p-6 rounded-xl hover:shadow-lg transition">
+      <h4 className="text-xl font-bold mb-4">Blog com Painel Admin</h4>
+      <div className="mb-4">
+        <img src="/images/blog.gif" alt="Blog com Painel Admin" className="w-full h-auto rounded-lg" />
+      </div>
+      <p className="text-gray-400">
+        Este é um projeto completo de um blog com painel administrativo, desenvolvido com Node.js, Express, Sequelize e MySQL no backend, e Next.js no frontend. O sistema permite o cadastro, autenticação de usuários e a criação de posts.
+      </p>
+    </div>
+
+    {/* Projeto 2 - Galeria de Imagens */}
+    <div className="bg-gray-800 p-6 rounded-xl hover:shadow-lg transition">
+      <h4 className="text-xl font-bold mb-4">Galeria de Imagens</h4>
+      <div className="mb-4">
+        <img src="/images/galeria.gif" alt="Galeria de Imagens" className="w-full h-auto rounded-lg" />
+      </div>
+      <p className="text-gray-400">
+        Este é um projeto completo de uma galeria de imagens, desenvolvido com Node.js, Express, Sequelize e MySQL no backend, e Next.js no frontend. O sistema permite o cadastro, autenticação de usuários e a criação de posts.
+      </p>
+    </div>
+
+    {/* Projeto 3 - TaskZen */}
+    <div className="bg-gray-800 p-6 rounded-xl hover:shadow-lg transition">
+      <h4 className="text-xl font-bold mb-4">TaskZen</h4>
+      <div className="mb-4">
+        <img src="/images/taskzen.gif" alt="TaskZen" className="w-full h-auto rounded-lg" />
+      </div>
+      <p className="text-gray-400">
+        Projeto TaskZen - Lista de Tarefas. Desenvolvido com Node.js, Express, Prisma e MySQL no backend, e Next.js no frontend.
+      </p>
+    </div>
+
+    {/* Projeto 4 - Tela de Login */}
+    <div className="bg-gray-800 p-6 rounded-xl hover:shadow-lg transition">
+      <h4 className="text-xl font-bold mb-4">Projeto Petshop</h4>
+      <div className="mb-4">
+        <img src="/images/petshop.gif" alt="Tela de Login" className="w-full h-auto rounded-lg" />
+      </div>
+      <p className="text-gray-400">
+        Este projeto é um sistema completo de um Petshop com backend em Node.js e Express e frontend em Next.js. Ele permite cadastrar um novo pet ao sistema e fazer agendamentos de servicos como banho, tosa, etc.
+      </p>
+    </div>
+  </div>
+</section>
+
 
       {/* Contato */}
       <section id="contato" className="px-6 py-24 bg-gray-900">
