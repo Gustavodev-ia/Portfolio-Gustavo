@@ -116,7 +116,7 @@ export default function Home() {
       className="bg-gray-800 p-6 rounded-xl flex flex-col items-center space-y-4 hover:shadow-lg transition"
       whileHover={{ scale: 1.05 }}
     >
-      <img src="/icons/server.png" alt="Hospedagem de Sites" className="w-12 h-12"/>
+      <img src="" alt="Hospedagem de Sites" className="w-12 h-12"/>
       <h4 className="text-xl font-bold">Hospedagem de Sites</h4>
       <p className="text-gray-400 text-center text-sm">
         Hospedagem rápida, segura e confiável, mantendo seu site online 24h com backups automáticos e SSL incluso.
@@ -128,7 +128,7 @@ export default function Home() {
       className="bg-gray-800 p-6 rounded-xl flex flex-col items-center space-y-4 hover:shadow-lg transition"
       whileHover={{ scale: 1.05 }}
     >
-      <img src="/icons/domain.png" alt="Registro de Domínios" className="w-12 h-12"/>
+      <img src="" alt="Registro de Domínios" className="w-12 h-12"/>
       <h4 className="text-xl font-bold">Registro de Domínios</h4>
       <p className="text-gray-400 text-center text-sm">
         Registro e configuração de domínios profissionais, DNS ajustado e suporte completo para sua empresa.
@@ -140,7 +140,7 @@ export default function Home() {
       className="bg-gray-800 p-6 rounded-xl flex flex-col items-center space-y-4 hover:shadow-lg transition"
       whileHover={{ scale: 1.05 }}
     >
-      <img src="/icons/website.png" alt="Criação de Sites" className="w-12 h-12"/>
+      <img src="" alt="Criação de Sites" className="w-12 h-12"/>
       <h4 className="text-xl font-bold">Criação de Sites</h4>
       <p className="text-gray-400 text-center text-sm">
         Desenvolvimento de sites modernos, responsivos e personalizados, otimizados para SEO e conversão.
@@ -152,7 +152,7 @@ export default function Home() {
       className="bg-gray-800 p-6 rounded-xl flex flex-col items-center space-y-4 hover:shadow-lg transition"
       whileHover={{ scale: 1.05 }}
     >
-      <img src="/icons/email.png" alt="E-mails Profissionais" className="w-12 h-12"/>
+      <img src="" alt="E-mails Profissionais" className="w-12 h-12"/>
       <h4 className="text-xl font-bold">E-mails Profissionais</h4>
       <p className="text-gray-400 text-center text-sm">
         Criação de e-mails com seu domínio, configurando SPF, DKIM e DMARC para máxima entrega e credibilidade.
