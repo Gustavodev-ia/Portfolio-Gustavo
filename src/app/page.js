@@ -154,6 +154,62 @@ export default function Home() {
   </div>
 </section>
 
+{/* Serviços Section */}
+<section id="servicos" className="px-6 py-24 bg-gray-950 border-t border-b border-gray-800">
+  <h3 className="text-3xl font-bold mb-12 text-center">Serviços</h3>
+  <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+    
+    {/* Hospedagem de Sites */}
+    <motion.div
+      className="bg-gray-800 p-6 rounded-xl flex flex-col items-center space-y-4 hover:shadow-lg transition"
+      whileHover={{ scale: 1.05 }}
+    >
+      <img src="/icons/server.png" alt="Hospedagem de Sites" className="w-12 h-12"/>
+      <h4 className="text-xl font-bold">Hospedagem de Sites</h4>
+      <p className="text-gray-400 text-center text-sm">
+        Hospedagem rápida, segura e confiável, mantendo seu site online 24h com backups automáticos e SSL incluso.
+      </p>
+    </motion.div>
+
+    {/* Registro de Domínios */}
+    <motion.div
+      className="bg-gray-800 p-6 rounded-xl flex flex-col items-center space-y-4 hover:shadow-lg transition"
+      whileHover={{ scale: 1.05 }}
+    >
+      <img src="/icons/domain.png" alt="Registro de Domínios" className="w-12 h-12"/>
+      <h4 className="text-xl font-bold">Registro de Domínios</h4>
+      <p className="text-gray-400 text-center text-sm">
+        Registro e configuração de domínios profissionais, DNS ajustado e suporte completo para sua empresa.
+      </p>
+    </motion.div>
+
+    {/* Criação de Sites */}
+    <motion.div
+      className="bg-gray-800 p-6 rounded-xl flex flex-col items-center space-y-4 hover:shadow-lg transition"
+      whileHover={{ scale: 1.05 }}
+    >
+      <img src="/icons/website.png" alt="Criação de Sites" className="w-12 h-12"/>
+      <h4 className="text-xl font-bold">Criação de Sites</h4>
+      <p className="text-gray-400 text-center text-sm">
+        Desenvolvimento de sites modernos, responsivos e personalizados, otimizados para SEO e conversão.
+      </p>
+    </motion.div>
+
+    {/* E-mails Profissionais */}
+    <motion.div
+      className="bg-gray-800 p-6 rounded-xl flex flex-col items-center space-y-4 hover:shadow-lg transition"
+      whileHover={{ scale: 1.05 }}
+    >
+      <img src="/icons/email.png" alt="E-mails Profissionais" className="w-12 h-12"/>
+      <h4 className="text-xl font-bold">E-mails Profissionais</h4>
+      <p className="text-gray-400 text-center text-sm">
+        Criação de e-mails com seu domínio, configurando SPF, DKIM e DMARC para máxima entrega e credibilidade.
+      </p>
+    </motion.div>
+
+  </div>
+</section>
+
 
       {/* Contato */}
       <section id="contato" className="px-6 py-24 bg-gray-900">
