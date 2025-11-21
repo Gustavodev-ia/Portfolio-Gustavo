@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
+import TechIcons from "./components/TechIcons";
 
 export default function Home() {
   return (
@@ -45,6 +46,8 @@ export default function Home() {
           Construindo soluções digitais com HTML, CSS, JavaScript, Node.js, Express, Prisma, NextJS e MySQL.
         </motion.p>
       </section>
+
+      <TechIcons />
 
       {/* Sobre Mim */}
       <section id="sobre" className="px-6 py-24 bg-gray-900">
